@@ -1,7 +1,7 @@
 def gonato_profile():
     """ Display Alexa Gonato's profile information. """
     while True:
-        print("\n=== Hi! Welcome to Jan Alexa Louisse P. Gonato's Personal Menu ===")
+        print("\n=== Hi! Welcome to Jan Alexa Louisse P. Gonato's Menu ===")
         print("[1] Alexa's Basic Info")
         print("[2] Alexa's Goals")
         print("[0] Return to Main Menu")
@@ -14,7 +14,7 @@ def gonato_profile():
                 print("I am an IT student from BSIT 2-1.")
             case "2":
                 print("\nAlexa's Goals")
-                print("To finally stop saying ‘student pa lang po’ in every intro.")
+                print("To finally stop saying ‘student p lng’ in every intro.")
             case "0":
                 print("\nReturning to Main Menu")
                 print("Goodbye champ! PEACE OUT!")
