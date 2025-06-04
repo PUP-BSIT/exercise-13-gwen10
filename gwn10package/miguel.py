@@ -4,6 +4,7 @@ def miguel_profile():
         print("\nGood day, everyone! I'm Kian Miguel, nice to meet you.")
         print("1. Basic Information About Kian")
         print("2. Kian's Goals")
+        print("3. Teves Comment")
         print("0. Back to Main Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -18,6 +19,9 @@ def miguel_profile():
                 print("\nKian's Goals")
                 print("- To buy a McLaren and beat Max Verstappen in a race.")
                 print("- To be called: Billionaire, Playboy, Philanthropist")
+            case "3":
+                print("\nTeves Comment")
+                print("Okay, good luck with that!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break

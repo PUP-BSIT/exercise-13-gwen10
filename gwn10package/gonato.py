@@ -4,6 +4,7 @@ def gonato_profile():
         print("\n=== Hi! Welcome to Jan Alexa Louisse P. Gonato's Menu ===")
         print("[1] Alexa's Basic Info")
         print("[2] Alexa's Goals")
+        print("[3] Teves Comment")
         print("[0] Return to Main Menu")
 
         choice = input("Please enter your choice: ").strip()
@@ -15,6 +16,9 @@ def gonato_profile():
             case "2":
                 print("\nAlexa's Goals")
                 print("To finally stop saying ‘student p lng’ in every intro.")
+            case "3":
+                print("\nTeves Comment")    
+                print("Good luck with your dream! I know you can do it!")
             case "0":
                 print("\nReturning to Main Menu")
                 print("Goodbye champ! PEACE OUT!")

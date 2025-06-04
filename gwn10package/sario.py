@@ -4,6 +4,7 @@ def sario_profile():
         print("\nGood day, everyone! I'm Gerald Sario, nice to meet you!")
         print("\n1. Basic Information about Gerald")
         print("2. My Goals")
+        print("3. Teves Comment")
         print("0. Back to Team Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -17,6 +18,9 @@ def sario_profile():
             case "2":
               print("My goal is to be rich, richer, and richest.")
               print("Become a millionaire, billionaire, and trillionaire.")
+            case "3":
+                print("\nTeves Comment")
+                print("Keep reaching for your dreams, Gerald!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break
