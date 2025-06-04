@@ -4,6 +4,7 @@ def bataller_profile():
         print("\nHello, everyone! I'm Christian Bataller, Have a great day!")
         print("1. Basic Information About Christian")
         print("2. Christian's Goals")
+        print("3. Teves Comment")
         print("0. Back to Main Menu")
         
         choice = input("\nEnter your choice: ").strip()
@@ -17,6 +18,9 @@ def bataller_profile():
                 print("\nBataller Goals")
                 print("- To achieve what I am currently pursuing.")
                 print("- To give my whole support to my family in future.")
+            case "3":
+                print("\nTeves Comment")
+                print("Keep up the good work and stay positive!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break
