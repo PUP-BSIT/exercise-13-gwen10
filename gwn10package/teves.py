@@ -7,6 +7,7 @@ def teves_profile():
         print("3. Bataller Comment")
         print("4. Sario Comment")
         print("5. Gonato Comment")
+        print("6. Miguel Comment")
         print("0. Back to Main Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -28,8 +29,11 @@ def teves_profile():
                 print("\nSario Comment")
                 print("You’re getting better every time. Keep going!")
             case "5":
-                ("\nGonato Comment")
+                print("\nGonato Comment")
                 print("You’re getting better every time. Keep going!")
+            case "6":
+                print("\nMiguel Comment")
+                print("Your profile is well-structured and informative!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break

@@ -32,7 +32,7 @@ def miguel_profile():
                 print("\nSario Comment")
                 print("You're making steady progress. Keep going!")
             case "6":
-                ("\nGonato Comment")
+                print("\nGonato Comment")
                 print("That greeting made me smile — very creative!")
             case "0":
                 print("\nReturning to Main Menu...")
