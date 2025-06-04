@@ -6,6 +6,7 @@ def miguel_profile():
         print("2. Kian's Goals")
         print("3. Teves Comment")
         print("4. Bataller Comment")
+        print("5. Sario Comment")
         print("0. Back to Main Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -26,6 +27,9 @@ def miguel_profile():
             case "4":
                 print("\nBataller Comment")
                 print("I believe you can achieve them!")
+            case "5":
+                print("\nSario Comment")
+                print("You're making steady progress. Keep going!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break

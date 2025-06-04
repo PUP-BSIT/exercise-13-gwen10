@@ -6,6 +6,7 @@ def gonato_profile():
         print("[2] Alexa's Goals")
         print("[3] Teves Comment")
         print("[4] Bataller Comment")
+        print("[5] Sario Comment")
         print("[0] Return to Main Menu")
 
         choice = input("Please enter your choice: ").strip()
@@ -23,6 +24,9 @@ def gonato_profile():
             case "4":
                 print("\nBataller Comment")
                 print("Your determination is inspiring!")
+            case "5":
+                print("\nSario Comment")
+                print("You're doing a great job. Keep it up!")
             case "0":
                 print("\nReturning to Main Menu")
                 print("Goodbye champ! PEACE OUT!")

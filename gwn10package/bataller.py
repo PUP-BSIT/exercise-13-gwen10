@@ -5,6 +5,7 @@ def bataller_profile():
         print("1. Basic Information About Christian")
         print("2. Christian's Goals")
         print("3. Teves Comment")
+        print("4. Sario Comment")
         print("0. Back to Main Menu")
         
         choice = input("\nEnter your choice: ").strip()
@@ -21,6 +22,9 @@ def bataller_profile():
             case "3":
                 print("\nTeves Comment")
                 print("Keep up the good work and stay positive!")
+            case "4":
+                print("\nSario Comment")
+                print("Clear and readable. Nice job!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break
