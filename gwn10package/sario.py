@@ -5,6 +5,7 @@ def sario_profile():
         print("\n1. Basic Information about Gerald")
         print("2. My Goals")
         print("3. Teves Comment")
+        print("4. Bataller Comment")
         print("0. Back to Team Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -21,6 +22,9 @@ def sario_profile():
             case "3":
                 print("\nTeves Comment")
                 print("Keep reaching for your dreams, Gerald!")
+            case "4":
+                print("\nBataller Comment")
+                print("Your positivity is contagious, Gerald! Keep it up!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break
