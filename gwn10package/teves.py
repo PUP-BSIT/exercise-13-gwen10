@@ -6,6 +6,7 @@ def teves_profile():
         print("2. Gwen's Goals")
         print("3. Bataller Comment")
         print("4. Sario Comment")
+        print("5. Gonato Comment")
         print("0. Back to Main Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -25,6 +26,9 @@ def teves_profile():
                 print("Keep fighting, Gwen! You're doing great!")
             case "4":
                 print("\nSario Comment")
+                print("You’re getting better every time. Keep going!")
+            case "5":
+                ("\nGonato Comment")
                 print("You’re getting better every time. Keep going!")
             case "0":
                 print("\nReturning to Main Menu...")

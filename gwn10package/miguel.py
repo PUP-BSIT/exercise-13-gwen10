@@ -7,6 +7,7 @@ def miguel_profile():
         print("3. Teves Comment")
         print("4. Bataller Comment")
         print("5. Sario Comment")
+        print("6. Gonato Comment")
         print("0. Back to Main Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -30,6 +31,9 @@ def miguel_profile():
             case "5":
                 print("\nSario Comment")
                 print("You're making steady progress. Keep going!")
+            case "6":
+                ("\nGonato Comment")
+                print("That greeting made me smile — very creative!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break
