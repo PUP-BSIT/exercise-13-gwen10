@@ -4,6 +4,7 @@ def teves_profile():
         print("\nGood day, everyone! I'm Gwen Teves, nice to meet you!")        
         print("\n1. Basic Information About Gwen")
         print("2. Gwen's Goals")
+        print("3. Bataller Comment")
         print("0. Back to Main Menu")
 
         choice = input("\nEnter your choice: ").strip()
@@ -18,6 +19,9 @@ def teves_profile():
                 print("\nGwen's Goals")
                 print("- To graduate on time and live peacefully.")
                 print("- To become an expert programmer.")
+            case "3":
+                print("\nBataller Comment")
+                print("Keep fighting, Gwen! You're doing great!")
             case "0":
                 print("\nReturning to Main Menu...")
                 break
